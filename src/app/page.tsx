@@ -250,11 +250,11 @@ export default function Home() {
                     'linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.95) 75%, #000000 100%)',
                 }}
               />
-              <div className="mx-auto h-[40dvh] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
+              <div className="mx-auto h-[52dvh] w-[95%] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
                 <img
                   src={Amanda_img.src}
                   alt="Founders"
-                  className="h-full w-full object-cover object-top sm:rounded-3xl"
+                  className="h-full w-full object-contain sm:object-cover object-top sm:rounded-3xl"
                 />
               </div>
             </div>
