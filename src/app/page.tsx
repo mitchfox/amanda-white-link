@@ -81,7 +81,7 @@ function LinkBox({
     <a
       href={href}
       target="_blank"
-      className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/10 p-2 backdrop-blur-sm transition-colors hover:bg-white/20"
+      className="flex items-center justify-between rounded-2xl border border-white/30 bg-white/20 p-2 backdrop-blur-sm transition-colors hover:bg-white/20"
     >
       <div className="flex flex-1 items-center gap-4">
         {image ? (
@@ -239,15 +239,15 @@ export default function Home() {
 
   return (
     <>
-      <Container className="flex-1 bg-zinc-950 pb-32">
+      <Container className="flex-1 bg-teal-500 pb-32">
         <div className="mx-auto max-w-lg text-center">
           <div className="relative w-full">
             <div className="relative">
               <div
-                className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-[30dvh] bg-gradient-to-b from-transparent via-transparent to-zinc-950 sm:hidden"
+                className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-[30dvh] sm:hidden"
                 style={{
                   background:
-                    'linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.95) 75%, #000000 100%)',
+                    'linear-gradient(to bottom, rgba(20, 184, 166, 0) 0%, rgba(20, 184, 166, 0.8) 50%, rgba(20, 184, 166, 0.95) 75%, rgb(20, 184, 166) 100%)',
                 }}
               />
               <div className="mx-auto h-[52dvh] w-[95%] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
